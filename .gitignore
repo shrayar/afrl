@@ -1,9 +1,14 @@
-.venv
-data/*
-!data/scripts
-.ipynb_checkpoints
-best_models
-runs
-src/__pycache__
-experiments
-logs
+# Data and models (too large)
+data/
+experiments/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
